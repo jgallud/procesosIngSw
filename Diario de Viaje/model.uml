@@ -104,6 +104,9 @@
     <extend xmi:id="_lp89gCZ-EeOj1_aNU1S_3g" extendedCase="_kzu_4CW9EeONPNxyL-0Zww" extensionLocation="_q0O3MCYUEeOH5cJNXZ611A"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_aXSjMCaOEeOaooFRdiAVjg" name="Ver Video">
-    <extend xmi:id="_7zZUUCaTEeORg9XqsvACUQ" extendedCase="_kzu_4CW9EeONPNxyL-0Zww" extensionLocation="_q0O3MCYUEeOH5cJNXZ611A"/>
+    <extend xmi:id="_kGlckCaaEeOj1_aNU1S_3g" extendedCase="_kzu_4CW9EeONPNxyL-0Zww" extensionLocation="_q0O3MCYUEeOH5cJNXZ611A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_m4dKcCaeEeOj1_aNU1S_3g" name="Agregar punto de interes">
+    <extend xmi:id="_qOtUkCaeEeOj1_aNU1S_3g" extendedCase="_kzu_4CW9EeONPNxyL-0Zww" extensionLocation="_q0O3MCYUEeOH5cJNXZ611A"/>
   </packagedElement>
 </uml:Model>
