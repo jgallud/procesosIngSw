@@ -215,6 +215,25 @@
     <element xmi:type="uml:UseCase" href="model.uml#_ijaqYCZ-EeOj1_aNU1S_3g"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ikV3cSZ-EeOj1_aNU1S_3g" x="815" y="250"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_aXfXgCaOEeOaooFRdiAVjg" type="2013" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aXf-kCaOEeOaooFRdiAVjg" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXf-kSaOEeOaooFRdiAVjg" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aXf-kiaOEeOaooFRdiAVjg" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXf-kyaOEeOaooFRdiAVjg" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aXf-lCaOEeOaooFRdiAVjg" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXf-lSaOEeOaooFRdiAVjg" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aXf-liaOEeOaooFRdiAVjg" type="5016"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aXf-lyaOEeOaooFRdiAVjg" type="7009">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_aXf-mCaOEeOaooFRdiAVjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_aXf-mSaOEeOaooFRdiAVjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXf-miaOEeOaooFRdiAVjg"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="model.uml#_aXSjMCaOEeOaooFRdiAVjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXfXgSaOEeOaooFRdiAVjg" x="652" y="408"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_K4D7YSTpEeOePaJVAaL60A"/>
   <element xmi:type="uml:Model" href="model.uml#_kgvbMCToEeOePaJVAaL60A"/>
   <edges xmi:type="notation:Connector" xmi:id="_P8naYCTpEeOePaJVAaL60A" type="4011" source="_MN00cCTpEeOePaJVAaL60A" target="_LfkAQCTpEeOePaJVAaL60A" lineColor="0">
