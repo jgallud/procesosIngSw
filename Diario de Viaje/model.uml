@@ -100,4 +100,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_hgc-sCYUEeOH5cJNXZ611A" name="Agregar foto">
     <extend xmi:id="_qzyLQCYUEeOH5cJNXZ611A" extendedCase="_kzu_4CW9EeONPNxyL-0Zww" extensionLocation="_q0O3MCYUEeOH5cJNXZ611A"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ijaqYCZ-EeOj1_aNU1S_3g" name="Agregar hotel">
+    <extend xmi:id="_lp89gCZ-EeOj1_aNU1S_3g" extendedCase="_kzu_4CW9EeONPNxyL-0Zww" extensionLocation="_q0O3MCYUEeOH5cJNXZ611A"/>
+  </packagedElement>
 </uml:Model>
