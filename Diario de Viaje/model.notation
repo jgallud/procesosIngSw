@@ -232,7 +232,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXf-miaOEeOaooFRdiAVjg"/>
     </children>
     <element xmi:type="uml:UseCase" href="model.uml#_aXSjMCaOEeOaooFRdiAVjg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXfXgSaOEeOaooFRdiAVjg" x="680" y="328"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aXfXgSaOEeOaooFRdiAVjg" x="680" y="312"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_K4D7YSTpEeOePaJVAaL60A"/>
   <element xmi:type="uml:Model" href="model.uml#_kgvbMCToEeOePaJVAaL60A"/>
