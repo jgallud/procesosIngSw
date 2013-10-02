@@ -18,5 +18,5 @@
 		Fin: Se muestra la ventana "Mis Viajes"
 		Postcondición: El sistema tiene un nuevo viaje 
 		Orden alternativo: 5) La validación de datos falla y se lanza de nuevo la ventana "Crear Viaje" con indicación del error
-4) Estructurar casos de uso:
+4) Estructurar casos de uso: no es necesario
 5) Prototipo de la IU
