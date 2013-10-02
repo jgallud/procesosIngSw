@@ -1,0 +1,22 @@
+1) Encontrar actores y casos de uso
+	- Actores: usuario anónimo y usuario registrado
+	- Casos de uso: véase figura (cdu-primeraIteracion.jpg)
+2) Priorizar cdu:
+	- Se priorizan "Registro Usuario", "Crear Viaje"
+3) Detallar cdu:
+	3.1 Registro de usuario
+		Precondición: 
+		Inicio: Aparece la ventana/pantalla de inicio de la App
+		Orden de acciones: 1) El usuario selecciona la opción "Registrar usuario"; 2) Se muestra el formulario de registro (nombre usuario, clave, email dos veces); 3) El usuario rellena los campos obligatorios; 4) El usuario selecciona la opción "Acpetar"; 5) El sistema almacena la información y muestra la ventana "Bienvenida" con sus opciones
+		Fin: Se muestra la ventana "Bienvenida"
+		Postcondición: El sistema tiene un nuevo usuario registrado
+		Orden alternativo: 5) El sistema no valida la información introducida y se muestra la ventana de "Registro usuario"
+	3.2 Crear Viaje
+		Precondición: El usuario existe en el sistema
+		Inicio: Ventana "Bienvenida" (con la opción "Crear Viaje")
+		Orden de acciones: 1) El usuario selecciona la opción "Crear Viaje"; 2) El sistema muestra el formulario para crear viaje (nombre, fechas); 3) El usuario rellena los campos; 4) El usuario selecciona la opción "Crear"; 5) El sistema valida los datos y da de alta el nuevo viaje, mostrando la ventana "Mis Viajes"
+		Fin: Se muestra la ventana "Mis Viajes"
+		Postcondición: El sistema tiene un nuevo viaje 
+		Orden alternativo: 5) La validación de datos falla y se lanza de nuevo la ventana "Crear Viaje" con indicación del error
+4) Estructurar casos de uso:
+5) Prototipo de la IU
