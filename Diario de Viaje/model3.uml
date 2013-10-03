@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_R0HZcCw6EeOd59xp5qI51A" name="model">
   <packagedElement xmi:type="uml:Class" xmi:id="_SX1KgCw6EeOd59xp5qI51A" name="UI"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_S42z8Cw6EeOd59xp5qI51A" name="Gestion Viajes"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S42z8Cw6EeOd59xp5qI51A" name="GestionViajes"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_TOmacCw6EeOd59xp5qI51A" name="Viaje"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_XrNIoCw6EeOd59xp5qI51A" name="gestion Viajes_uI_1" memberEnd="_XrNIoSw6EeOd59xp5qI51A _XrMhkCw6EeOd59xp5qI51A">
     <ownedEnd xmi:id="_XrNIoSw6EeOd59xp5qI51A" name="gestion Viajes" type="_S42z8Cw6EeOd59xp5qI51A" association="_XrNIoCw6EeOd59xp5qI51A">

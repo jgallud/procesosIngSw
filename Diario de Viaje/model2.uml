@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_xJck8Cw3EeOd59xp5qI51A" name="model">
   <packagedElement xmi:type="uml:Class" xmi:id="_1y1x8Cw3EeOd59xp5qI51A" name="UI"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_4UWscCw3EeOd59xp5qI51A" name="Gestion Usuarios"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4UWscCw3EeOd59xp5qI51A" name="GestionUsuarios"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_8BZl8Cw3EeOd59xp5qI51A" name="Usuario"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_9uuqcyw3EeOd59xp5qI51A" name="" memberEnd="_9uuqdCw3EeOd59xp5qI51A _9uuqcCw3EeOd59xp5qI51A">
     <ownedEnd xmi:id="_9uuqdCw3EeOd59xp5qI51A" name="uI" type="_1y1x8Cw3EeOd59xp5qI51A" association="_9uuqcyw3EeOd59xp5qI51A">

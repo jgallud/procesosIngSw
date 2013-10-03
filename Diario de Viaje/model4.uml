@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_2OX6kCw7EeOd59xp5qI51A" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_2Oq1gCw7EeOd59xp5qI51A" name="InicioSesion">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YZMlICw8EeOd59xp5qI51A" name="Message0Send0" covered="_Aor9UCw8EeOd59xp5qI51A" message="_YYlhICw8EeOd59xp5qI51A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YZNMMCw8EeOd59xp5qI51A" name="Message0Recv0" covered="_IC8vcCw8EeOd59xp5qI51A" message="_YYlhICw8EeOd59xp5qI51A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gfbscCw8EeOd59xp5qI51A" name="Message0Send1" covered="_IC8vcCw8EeOd59xp5qI51A" message="_gfTJkCw8EeOd59xp5qI51A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gfbscSw8EeOd59xp5qI51A" name="Message0Recv1" covered="_UWiA8Cw8EeOd59xp5qI51A" message="_gfTJkCw8EeOd59xp5qI51A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wZ16sCw8EeOd59xp5qI51A" name="Message0Send2" covered="_UWiA8Cw8EeOd59xp5qI51A" message="_wZvNACw8EeOd59xp5qI51A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wZ2hwCw8EeOd59xp5qI51A" name="Message0Recv2" covered="_IC8vcCw8EeOd59xp5qI51A" message="_wZvNACw8EeOd59xp5qI51A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AhZ0ICw9EeOd59xp5qI51A" name="Message0Send3" covered="_IC8vcCw8EeOd59xp5qI51A" message="_AhTtgCw9EeOd59xp5qI51A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AhZ0ISw9EeOd59xp5qI51A" name="Message0Recv3" covered="_Aor9UCw8EeOd59xp5qI51A" message="_AhTtgCw9EeOd59xp5qI51A"/>
+    <lifeline xmi:id="_Aor9UCw8EeOd59xp5qI51A" name="aUI" coveredBy="_YZMlICw8EeOd59xp5qI51A _AhZ0ISw9EeOd59xp5qI51A"/>
+    <lifeline xmi:id="_IC8vcCw8EeOd59xp5qI51A" name="aGestionUsuarios" coveredBy="_YZNMMCw8EeOd59xp5qI51A _gfbscCw8EeOd59xp5qI51A _wZ2hwCw8EeOd59xp5qI51A _AhZ0ICw9EeOd59xp5qI51A"/>
+    <lifeline xmi:id="_UWiA8Cw8EeOd59xp5qI51A" name="aUsuario" coveredBy="_gfbscSw8EeOd59xp5qI51A _wZ16sCw8EeOd59xp5qI51A"/>
+    <message xmi:id="_YYlhICw8EeOd59xp5qI51A" name="1:sendUsrPasswd()" receiveEvent="_YZNMMCw8EeOd59xp5qI51A" sendEvent="_YZMlICw8EeOd59xp5qI51A"/>
+    <message xmi:id="_gfTJkCw8EeOd59xp5qI51A" name="2:check0" receiveEvent="_gfbscSw8EeOd59xp5qI51A" sendEvent="_gfbscCw8EeOd59xp5qI51A"/>
+    <message xmi:id="_wZvNACw8EeOd59xp5qI51A" name="3:response" receiveEvent="_wZ2hwCw8EeOd59xp5qI51A" sendEvent="_wZ16sCw8EeOd59xp5qI51A"/>
+    <message xmi:id="_AhTtgCw9EeOd59xp5qI51A" name="4:response" receiveEvent="_AhZ0ISw9EeOd59xp5qI51A" sendEvent="_AhZ0ICw9EeOd59xp5qI51A"/>
+  </packagedElement>
+</uml:Model>
