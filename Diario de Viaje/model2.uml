@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_xJck8Cw3EeOd59xp5qI51A" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_1y1x8Cw3EeOd59xp5qI51A" name="UI"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4UWscCw3EeOd59xp5qI51A" name="Gestion Usuarios"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8BZl8Cw3EeOd59xp5qI51A" name="Usuario"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9uuqcyw3EeOd59xp5qI51A" name="" memberEnd="_9uuqdCw3EeOd59xp5qI51A _9uuqcCw3EeOd59xp5qI51A">
+    <ownedEnd xmi:id="_9uuqdCw3EeOd59xp5qI51A" name="uI" type="_1y1x8Cw3EeOd59xp5qI51A" association="_9uuqcyw3EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9uuqdSw3EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9uuqdiw3EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_9uuqcCw3EeOd59xp5qI51A" name="gestion Usuarios" type="_4UWscCw3EeOd59xp5qI51A" association="_9uuqcyw3EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9uuqcSw3EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9uuqciw3EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pSmvECw4EeOd59xp5qI51A" name="" memberEnd="_pSmvESw4EeOd59xp5qI51A _pSmIACw4EeOd59xp5qI51A">
+    <ownedEnd xmi:id="_pSmvESw4EeOd59xp5qI51A" name="usuario" type="_8BZl8Cw3EeOd59xp5qI51A" association="_pSmvECw4EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pSmvEiw4EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pSmvEyw4EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_pSmIACw4EeOd59xp5qI51A" name="gestion Usuarios" type="_4UWscCw3EeOd59xp5qI51A" association="_pSmvECw4EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pSmIASw4EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pSmIAiw4EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
