@@ -1,5 +1,19 @@
 Primera Iteración
+
 1. Analizar la arquitectura
-2. Analizar un caso de uso
+  1.1 Identificación de paquetes de análisis
+    Paquete "Gestión de Usuarios": asociamos los cdu "Inicio Sesión" y "Registro Usuario"
+    Paquete "Gestión de Viajes": asociamos el cdu "Crear Viaje"
+  1.2 Identificar clases evidentes
+    Clases significativas para la arquitectura: Usuario, Viaje
+  1.3 Identificar requisitos especiales comunes
+    Se requiere una solución Web
+    Persistencia?
+    
+2. Analizar un caso de uso (Realización de cdu)
+  2.1 Identificar clases de análisis
+  2.2 Distribuir el comportamiento del cdu entre los objetos de análisis
+  2.3 Capturar requisitos especiales sobre los la realización de cdu
+
 3. Analizar una clase
 4. Analizar un paquete
