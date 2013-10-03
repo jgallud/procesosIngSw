@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_R0HZcCw6EeOd59xp5qI51A" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_SX1KgCw6EeOd59xp5qI51A" name="UI"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_S42z8Cw6EeOd59xp5qI51A" name="Gestion Viajes"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TOmacCw6EeOd59xp5qI51A" name="Viaje"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XrNIoCw6EeOd59xp5qI51A" name="gestion Viajes_uI_1" memberEnd="_XrNIoSw6EeOd59xp5qI51A _XrMhkCw6EeOd59xp5qI51A">
+    <ownedEnd xmi:id="_XrNIoSw6EeOd59xp5qI51A" name="gestion Viajes" type="_S42z8Cw6EeOd59xp5qI51A" association="_XrNIoCw6EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XrNIoiw6EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XrNIoyw6EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_XrMhkCw6EeOd59xp5qI51A" name="uI" type="_SX1KgCw6EeOd59xp5qI51A" association="_XrNIoCw6EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XrMhkSw6EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XrMhkiw6EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YUFtkCw6EeOd59xp5qI51A" name="viaje_gestion Viajes_1" memberEnd="_YUFtkSw6EeOd59xp5qI51A _YUFGgCw6EeOd59xp5qI51A">
+    <ownedEnd xmi:id="_YUFtkSw6EeOd59xp5qI51A" name="viaje" type="_TOmacCw6EeOd59xp5qI51A" association="_YUFtkCw6EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YUFtkiw6EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YUFtkyw6EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_YUFGgCw6EeOd59xp5qI51A" name="gestion Viajes" type="_S42z8Cw6EeOd59xp5qI51A" association="_YUFtkCw6EeOd59xp5qI51A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YUFGgSw6EeOd59xp5qI51A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YUFGgiw6EeOd59xp5qI51A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
