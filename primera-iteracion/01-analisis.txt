@@ -12,6 +12,11 @@ Primera Iteración
     
 2. Analizar un caso de uso (Realización de cdu)
   2.1 Identificar clases de análisis
+    (ver diagrama de Papyrus)
+    cdu Usuarios:
+      Clases: IU - Gestion Usuarios - Usuario
+    cdu Viajes:
+      Clases: IU - Gestion Viajes - Viaje
   2.2 Distribuir el comportamiento del cdu entre los objetos de análisis
   2.3 Capturar requisitos especiales sobre los la realización de cdu
 
